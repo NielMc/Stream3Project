@@ -141,8 +141,8 @@ STATIC_ROOT = ''
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)  # static directory at the project level
 
 AWS_STORAGE_BUCKET_NAME = 'nielsphotos'
-AWS_ACCESS_KEY_ID = 'AKIAITUSUVCZK7DLY2RQ'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = ''
+AWS_SECRET_ACCESS_KEY = ''
 
 # Tell django-storages that when coming up with the URL for an item in S3 storage, keep
 # it simple - just use this domain plus the path. (If this isn't set, things get complicated).
