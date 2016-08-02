@@ -15,3 +15,4 @@ git+https://github.com/NielMc/ReusableBlogPackage
 six==1.10.0
 stripe==1.37.0
 wheel==0.24.0
+gunicorn==19.4
