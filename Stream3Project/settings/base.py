@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'tinymce',
     'emoticons',
     'storages',
+    'blog',
 ]
 
 MIDDLEWARE_CLASSES = [
