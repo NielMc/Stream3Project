@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'polls',
     'hello',
     'django_forms_bootstrap',
-    'reusable_blog',
     'django.contrib.sites',
     'disqus',
     'tinymce',
