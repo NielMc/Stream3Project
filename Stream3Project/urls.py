@@ -25,7 +25,7 @@ urlpatterns = [
     url(r'^contact$', hello_views.get_contact, name='contact'),
     url(r'^about$', hello_views.get_about, name='about'),
     url(r'', include('accounts.urls')),
-    url(r'^blog/', include('reusable_blog.urls')),
+    url(r'^blog/', include('blog.urls')),
 
     # Forum URLs
     url(r'^forum/$', forum_views.forum),

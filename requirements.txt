@@ -11,6 +11,7 @@ django-tinymce==2.3.0
 funcsigs==1.0.2
 gunicorn==19.4.0
 mock==2.0.0
+mysql-python==1.2.5
 pbr==1.10.0
 Pillow==2.9.0
 python-dateutil==2.5.3
