@@ -11,6 +11,7 @@ DATABASES = {
     }
 }
 
+STATIC_URL = '/static/'
 
 #Stripe environment variables
 STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_2PS7odZVQMImDuRuukkcGfb8')
